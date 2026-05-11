@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const app = express();
 
-const token = '8734082116:AAGngJaH7S4-EfNcisdLhfTsU0I6DUYISGc'; 
+const token = '8734082116:AAF890VWe5XAfJCYtmun8vFiFFdMt8WXmO0'; 
 const bot = new TelegramBot(token, {polling: true});
 
 app.get('/', (req, res) => res.send('Creative Service Bot is Live!'));
